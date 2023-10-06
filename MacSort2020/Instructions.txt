@@ -1,0 +1,14 @@
+MacSort 1.0
+
+Copyright © Dan Romik 2008-2020
+
+Instructions for use:
+
+1. Running the app: when you click the app icon, depending on what version of MacOS you are running your Mac might refuse to run the app since it is not code-signed. If this happens you can still run it by control-clicking the icon and selecting "Open" from the contextual menu.
+
+
+2. Using the app: the interface is pretty self-explanatory if you have read the two papers I refer to in the ReadMe file. The "Type" pop-up controls the type of sorting network you will create. "Uniform" will create a uniformly random SN of the given order. "DPRW" will create a Directed Permutahedron Random Walk, which is the random walk starting from the identity permutation and multiplying each time by a uniformly chosen adjacent transposition conditioned to increase the number of inversions. "Uniform swaps" is the undirected version where you simply perform a uniformly random adjacent transposition at each step. It is an infinite random walk, so the program just generates a finite walk of length 20*N, where N=n(n-1)/2 is the length of a sorting network of order n. "Bubble sort" and "Plain hunt" create two simple deterministic sorting networks with pleasing patterns. "Triangular DPRW" is a variant of DPRW where the swaps are not chosen uniformly, but according to a biased distribution where the probability of the swap between i and i+1 is proportional to i. This was suggested to me by Sergey Fomin, who studied a similar process and proved a nice result about it with Richard Stanley.
+
+"Stretchable" is a feature I have not yet implemented. I may add it in a later version.
+
+In the "Wiring diagrams" window, you can turn on and off the trajectories of selected particles by clicking on the graphics view. The viewability state of the trajectory of the paticle at that vertical coordinate will be toggled. If you click inside the trajectory indicator bar, you will toggle all the trajectories (for small sorting networks) or a group of trajectories around that vertical value (for large networks, since for those networks it becomes less visually helpful to draw all trajectories).

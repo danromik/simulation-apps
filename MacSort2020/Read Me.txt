@@ -1,0 +1,28 @@
+MacSort 1.0
+
+Copyright © Dan Romik 2008-2020
+
+Change log: 
+
+- November 2020: recompiled the source code for the Intel 64-bit architecture. The current package contains two app binary bundles: "MacSort" is the newly compiled version that will run on Macs running versions of MacOS compatible with the 64-bit architecture. The binary "MacSort-old-32bit" will run on older Macs running the pre-64-bit versions of MacOS dating back to at least MacOS 10.5 (Leopard) and possibly some of the earlier versions.
+
+
+- Original app notes from February 2008, updated slightly:
+
+MacSort is a program for experimenting with random sorting networks, a.k.a. reduced word representations of the maximal permutation. The two main random models are the Uniform Sorting Networks (USN), which were studied in the paper Random Sorting Networks, by O. Angel, A. E. Holroyd, B. Virag and myself [Adv. Appl. Math. 215 (2007), 839-868], and the Directed Permutahedron Random Walk (DPRW) which is studied in the paper The Oriented Swap Process by O. Angel, A. E. Holroyd and myself [Ann. Probab. 37 (2009), 1970-1998].
+
+This program was written on XCode 3.0 in the Cocoa development environment under Mac OS 10.5 (Leopard). It definitely runs on Intel-based Macs running Mac OS 10.5, and might run on pre-Intel Macs running the same Mac OS versions, and also on Macs running earlier versions of Mac OS X. I haven't tried, so I don't know... If you try running it on such systems, please let me know if it worked or not. If it didn't work, it is possible that I can make it work by compiling it with the correct settings, so it is worth your while to let me know!
+
+You are free to use this program and also to distribute it freely to other people, as long as you change nothing and distribute the entire package including this information file and the accompanying instructions file.
+
+My contact details are:
+
+Dan Romik
+romik@math.ucdavis.edu
+https://www.math.ucdavis.edu/~romik/
+
+Please write to me if you used this program and liked it, or for any more information. You may also visit my home page for more information about this program and other free programs I've written.
+
+Enjoy!
+
+Dan Romik
