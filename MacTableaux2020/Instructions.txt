@@ -1,0 +1,31 @@
+MacTableaux 1.0
+
+Copyright © Dan Romik 2008-2020
+
+Instructions:
+
+
+1. Running the app: when you click the app icon, depending on what version of MacOS you are running your Mac might refuse to run the app since it is not code-signed. If this happens you can still run it by control-clicking the icon and selecting "Open" from the contextual menu.
+
+2. Using the app: if you are familiar with the mathematics of Young diagrams and Young tableaux, most of the operations will be fairly self-explanatory after a little playing around. Here are some basic ideas are: "Create Young diagram" creates a Young diagram of the type you chose. The square, rectangular, staircase and custom types are for creating deterministic diagrams. In "custom" mode, you get to draw the diagram with the mouse. The Plancherel type corresponds to a random Young diagram chosen according to Plancherel measure. The "corner growth" type corresponds to a random Young diagram chosen according to Rost's model for randomly growing Young diagrams (see the bibliography below). 
+
+When you click "Create Young tableau", if a Young diagram is initialized, the result is to create a uniformly random Young tableau whose shape is the current Young diagram. If no Young diagram is present, one is created and then a random Young tableau is drawn.
+
+There are two features I did not yet implement: The limit shape for rectangular Young tableaux, and the Robinson-Schensted "insertion" operation. I guess I ran out of steam after working on this program for a few weeks. I may add them in a later version.
+
+Here are some places where you might read about the mathematics related to MacTableaux:
+
+For general background on Young tableaux:
+
+1. Chapter 7 in the book Enumerative Combinatorics, Vol. II, by Richard Stanley.
+2. Section 5.1.4 in the book The Art of Computer Programming, Vol. 3: Sorting and Searching, by Donald E. Knuth.
+
+For background on random Young tableaux and Young diagrams that is relevant to understanding some parts of MacTableaux, consult the following papers:
+
+3. A. M. Vershik, S. V. Kerov. Asymptotics of the Plancherel measure of the symmetric group and the limiting shape of Young tableaux. Soviet Math. Dokl. 18 (1977), 527-531.
+4. A. M. Vershik, S. V. Kerov. The asymptotics of maximal and typical dimensions of irreducible representations of the symmetric group. Funct. Anal. Appl. 19 (1985), 21-35.
+5. B. F. Logan, L. A. Shepp. A variational problem for random Young tableaux. Adv. Math. 26 (1977), 206-222.
+6. H. Rost. Nonequilibrium behaviour of a many particle process: Density profile and local equilibria. Z. Wahrsch. Verw. Gebiete 58 (1981), 41-53.
+7. B. G. Pittel and D. Romik. Limit shapes for random square Young Tableaux. Adv. Appl. Math. 38 (2007), 164-209.
+8. D. Romik, Permutations with short monotone subsequences. Adv. Appl. Math. 37 (2006), 501-510.
+9. O. Angel, A. E. Holroyd, D. Romik, B. Virag. Random sorting networks. Adv. Math. 215 (2007), 839-868.
